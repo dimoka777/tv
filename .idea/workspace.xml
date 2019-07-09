@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fadb47d7-773c-4233-bd22-b069f5868130" name="Default Changelist" comment="" />
+    <list default="true" id="fadb47d7-773c-4233-bd22-b069f5868130" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site_tv/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/site_tv/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site_tv/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/site_tv/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/post_list.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site_tv/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="171">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="20" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -34,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/post_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="162">
+              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
               <folding>
                 <element signature="n#style#0;n#th#0;n#table#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#th#1;n#table#0;n#div#0;n#!!top" expanded="true" />
@@ -46,6 +53,15 @@
                 <element signature="n#style#0;n#th#3;n#table#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#th#4;n#table#0;n#div#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site_tv/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -68,10 +84,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site_tv/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
+            <state relative-caret-position="225">
               <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
@@ -90,6 +106,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -99,18 +118,20 @@
         <option value="$PROJECT_DIR$/site_tv/urls.py" />
         <option value="$PROJECT_DIR$/templates/main.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/templates/post_list.html" />
-        <option value="$PROJECT_DIR$/site_tv/views.py" />
         <option value="$PROJECT_DIR$/site_tv/models.py" />
+        <option value="$PROJECT_DIR$/site_tv/admin.py" />
+        <option value="$PROJECT_DIR$/site_tv/views.py" />
+        <option value="$PROJECT_DIR$/templates/post_list.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="195" />
     <option name="y" value="27" />
     <option name="width" value="797" />
     <option name="height" value="684" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -157,12 +178,68 @@
             <path>
               <item name="tv" type="b2602c69:ProjectViewProjectNode" />
               <item name="tv" type="462c0819:PsiDirectoryNode" />
+              <item name="site_tv" type="462c0819:PsiDirectoryNode" />
+              <item name="views.py" type="8704e2dd:PyFileNode" />
+              <item name="SubAgent" type="dd8bbb05:PyElementNode" />
+            </path>
+            <path>
+              <item name="tv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tv" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tv" type="b2602c69:ProjectViewProjectNode" />
               <item name="tv" type="462c0819:PsiDirectoryNode" />
               <item name="tv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="tv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (tv) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="tv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (tv) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="b5f07198:RTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="tv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (tv) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="b5f07198:RTreeStructureProvider$1" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (tv) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="b5f07198:RTreeStructureProvider$1" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (tv) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="b5f07198:RTreeStructureProvider$1" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="generic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (tv) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="b5f07198:RTreeStructureProvider$1" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="generic" type="462c0819:PsiDirectoryNode" />
+              <item name="edit.py" type="8704e2dd:PyFileNode" />
             </path>
           </expand>
           <select />
@@ -172,6 +249,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -223,25 +301,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562667471217</updated>
-      <workItem from="1562667472703" duration="8902000" />
+      <workItem from="1562667472703" duration="12219000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8902000" />
+    <option name="totallyTimeSpent" value="12219000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13727055" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16919394" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32954547" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -300,10 +378,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/views/generic/edit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1215">
+          <caret line="66" column="39" lean-forward="true" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site_tv/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -314,10 +409,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/site_tv/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/site_tv/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="171">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="20" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
@@ -326,24 +428,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/post_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="162">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
           <folding>
             <element signature="n#style#0;n#th#0;n#table#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#th#1;n#table#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#th#2;n#table#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#th#3;n#table#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#th#4;n#table#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site_tv/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
