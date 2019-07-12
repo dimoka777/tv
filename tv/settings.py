@@ -25,7 +25,7 @@ SECRET_KEY = 'k2kc=(i*kc-xx7u=)h#7bzfr#39qzhsk$f39+3wv9!bq0udzm3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'dimoka.gq']
 
 
 # Application definition
