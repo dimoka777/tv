@@ -7,6 +7,6 @@ DATABASES = {
         'USER': 'dimoka_user',
         'PASSWORD': '1234',
         'HOST': 'localhost',
-        'PORT': '',
+        'PORT': '80',
     }
 }
