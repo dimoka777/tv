@@ -7,6 +7,6 @@ DATABASES = {
         'USER': 'simpledjangouser',
         'PASSWORD': '123',
         'HOST': 'localhost',
-        'PORT': ':',
+        'PORT': '',
     }
 }
