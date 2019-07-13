@@ -3,9 +3,9 @@ from .settings import *
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'cv',
-        'USER': 'dimoka_user',
-        'PASSWORD': '1234',
+        'NAME': 'simpledjango',
+        'USER': 'simpledjangouser',
+        'PASSWORD': '123',
         'HOST': 'localhost',
         'PORT': ':',
     }
