@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fadb47d7-773c-4233-bd22-b069f5868130" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/tv/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tv/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tv/settings_prod.py" beforeDir="false" afterPath="$PROJECT_DIR$/tv/settings_prod.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tv/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/tv/wsgi.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +29,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tv/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2233">
+            <state relative-caret-position="-2219">
               <caret line="27" column="71" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
             </state>
           </provider>
@@ -46,7 +44,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tv/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
@@ -58,7 +56,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
@@ -253,12 +251,12 @@
       <workItem from="1562952278966" duration="5000" />
       <workItem from="1562955597749" duration="464000" />
       <workItem from="1562956681146" duration="63000" />
-      <workItem from="1563011006152" duration="2880000" />
+      <workItem from="1563011006152" duration="3508000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32222000" />
+    <option name="totallyTimeSpent" value="32850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
@@ -409,20 +407,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tv/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2233">
-          <caret line="27" column="71" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tv/settings_prod.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/python3.6/os.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="519">
@@ -437,6 +421,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tv/settings_prod.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tv/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2219">
+          <caret line="27" column="71" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tv/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -444,13 +449,6 @@
           <folding>
             <element signature="e#218#227#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
