@@ -1,0 +1,27 @@
+[Unit]
+Description=gunicorn daemon for simpledjango project
+Requires=gunicorn_simpledjango.socket
+After=network.target
+
+[Service]
+PermissionsStartOnly=True
+User=murat
+Group=www-data
+RuntimeDirectory=gunicorn
+RuntimeDirectoryMode=0775
+PIDFile=/run/gunicorn/pid
+WorkingDirectory=/home/dimoka/simpledjango
+ExecStart=/home/dimoka/simpledjango/env/bin/gunicorn \
+          --access-logfile /home/dimoka/simpledjango/logs/access.log \
+          --error-logfile /home/dimoka/simpledjango/logs/error.log \
+          --pid /run/gunicorn/pid   \
+          --env DJANGO_SETTINGS_MODULE=tv.settings_prod \
+          --workers 3 \
+          --bind unix:/run/gunicorn/simpledjango_socket tv.wsgi:application
+ExecReload=/bin/kill -s HUP $MAINPID
+ExecStop=/bin/kill -s TERM $MAINPID
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
+
